@@ -1,0 +1,175 @@
+div.section-container {
+	padding-left: 10px;
+}
+
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.footer-link { 
+	text-decoration: none;
+	color: black;
+}		
+
+.footer-link:hover
+{
+	text-shadow: 0 0 .9px black, 0 0 .9px black;
+}
+
+img.languages-flag {
+	-webkit-transform: scale(0.4); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.4); /* FF3.5+ */
+      -ms-transform: scale(0.4); /* IE9 */
+       -o-transform: scale(0.4); /* Opera 10.5+ */
+          transform: scale(0.4);
+}
+
+.profile-content-item {
+	margin-bottom: 5px;
+}
+
+.profile-link {
+	text-decoration: none;
+	color: black;	
+}
+
+.work-experience-link {
+	text-decoration: none;
+	color: black;	
+	font-weight: bold;
+}
+
+.work-experience-link:hover {
+	color: green;
+}
+
+#github-item:hover #github-icon{
+	color: green;
+}
+
+#github-item:hover .profile-link{
+	color: green;
+	text-shadow: 0 0 .9px green, 0 0 .9px green;
+}
+
+#apis-multivac:hover #multivac-icon{
+	color: green;
+}
+
+#apis-multivac:hover #multivac-link{
+	color: green;
+	text-shadow: 0 0 .9px green, 0 0 .9px green;
+}
+
+#multivac-link {
+	text-decoration: none;
+	color: black;	
+}
+
+.icon-color-facebook {
+	color: #3b5998;
+}
+
+.icon-color-google-blue {
+	color: #4885ed;
+}
+
+.icon-color-google-red {
+	color: #db3236;
+}
+
+.icon-color-last-fm {
+	color: #db1302;
+}
+
+.icon-color-spotify {
+	color: #1db954;
+}
+
+.icon-color-twitter {
+	color: #55acee;
+}
+
+.section-content{
+	padding-left: 10px;	
+}
+
+th.table-header-tech-skills, td.table-cell-tech-skills {
+	/*width:150px; */
+	text-align: left;
+}
+
+div#language-filipino {
+	background-image: url("assets/flag-ph.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+div#language-english {
+	background-image: url("assets/flag-us.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+div#language-spanish {
+	background-image: url("assets/flag-es.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+div#language-japanese {
+	background-image: url("assets/flag-jp.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+div#language-bahasa-indonesia {
+	background-image: url("assets/flag-id.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+div#language-swedish {
+	background-image: url("assets/flag-se.png");
+	width: 50px;
+	height: 25px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+td.languages-rating {
+	display:inline-block;
+  white-space:nowrap;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul, ol {
+	padding-left: 20px;
+}
+
+.tech-third-party-api {
+	padding-bottom: 20px !important;
+}
+
+.tech-third-party-apis {
+	padding-top: 20px;
+}
